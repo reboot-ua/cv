@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "reset.css";
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.skills .title {
+    text-align: center;
+}
+
+.skills ul li {
+    padding: 0 5px 10px;
+    width: 33.32%;
+    height: 85px;
+}
+
+.skills ul li .skill_item {
+    background: #f2f4f5;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.skills ul li .skill_item i {
+    padding-top: 10px;
+}
+
+.full_info_wrap .tabs ul{
+    display: flex;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #dfe4e6;
+    border-radius: 3px;
+}
+
+.full_info_wrap .tabs ul li{
+    padding: 10px 15px;
+    width: 33.34%;
+    height: 34px;
+    text-align: center;
+    border-right: 1px solid #dfe4e6;
+    background: #f2f4f5;
+    color: #a0acb5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.full_info_wrap .tabs ul li:last-child{
+    border-right: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.full_info_wrap .tabs ul li.active,
+.full_info_wrap .tabs ul li:hover{
+    background: #fff;
+    color: #5558c9;
+}

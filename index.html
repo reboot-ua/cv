@@ -1,24 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>My CV</title>
 </head>
 <body>
-<header class="header">
-
-<div class="header__img">
-    <img src="" alt="" class="img">
-</div>
+<header class="header container">
+    <div class="header__img">
+        <img src="./image/my_foto.jpg" alt="" class="img">
+    </div>
     <div class="header__description">
-        <div class="name"></div>
-        <div class="position"></div>
+        <div class="name"> Iakovyshyn Sergii</div>
+        <div class="location"><i class="fas fa-map-marker-alt"></i>Ivano-Frankivsk, Ukraine</div>
+        <div class="position">Frontend developer</div>
     </div>
 </header>
-<main class="main">
 
+<main class="main container">
+    <div class="skills">
+        <div class="title">
+            Skills
+        </div>
+        <ul>
+            <li>
+                <div class="skill_item html">
+                    <i class="fab fa-html5 fa-3x"></i>
+                    <div class="text">HTML</div>
+                </div>
+            </li>
+            <li>
+                <div class="skill_item css">
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                    <div class="text">CSS</div>
+                </div>
+            </li>
+            <li>
+                <div class="skill_item js">
+                    <i class="fab fa-js fa-3x"></i>
+                    <div class="text">Javascript</div>
+                </div>
+            </li>
+            <li>
+                <div class="skill_item react">
+                    <i class="fab fa-react fa-3x"></i>
+                    <div class="text">ReactJS</div>
+                </div>
+            </li>
+            <li>
+                <div class="skill_item vue">
+                    <i class="fab fa-vuejs fa-3x"></i>
+                    <div class="text">VueJS</div>
+                </div>
+            </li>
+            <li>
+                <div class="skill_item git">
+                    <i class="fab fa-github fa-3x"></i>
+                    <div class="text">Git</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="full_info_wrap">
+        <div class="tabs">
+            <ul>
+                <li data-li="experience" class="active">Experience</li>
+                <li data-li="education">Education</li>
+                <li data-li="contact">Contact</li>
+            </ul>
+        </div>
+
+        <div class="full_info">
+            <div class="full_info_item experience">
+                <div class="title">WORK EXPERIENCE</div>
+
+                <div class="info_wrap">
+                    <ul>
+                        <li>
+                            <div class="sub_title">
+                                2013 - 2015
+                            </div>
+
+                            <div class="info_item">
+                                <div class="info_title">
+                                    Facebook
+                                </div>
+                                <div class="data">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquam nesciunt
+                                    tempora fugit, doloremque pariatur.
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sub_title">
+                                2015 - 2017
+                            </div>
+
+                            <div class="info_item">
+                                <div class="info_title">
+                                    Amazon Pvt Limited
+                                </div>
+                                <div class="data">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquam nesciunt
+                                    tempora fugit, doloremque pariatur.
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sub_title">
+                                2017 - Present
+                            </div>
+
+                            <div class="info_item">
+                                <div class="info_title">
+                                    Google
+                                </div>
+                                <div class="data">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquam nesciunt
+                                    tempora fugit, doloremque pariatur.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="full_info_item education">
+                <div class="title">EDUCATION</div>
+
+                <div class="info_wrap">
+                    <ul>
+                        <li>
+                            <div class="sub_title">
+                                2010 - 2013
+                            </div>
+
+                            <div class="info_item">
+                                <div class="info_title">
+                                    Web Designing (Texas University)
+                                </div>
+                                <div class="data">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sub_title">
+                                2000 - 2010
+                            </div>
+
+                            <div class="info_item">
+                                <div class="info_title">
+                                    Texas International School
+                                </div>
+                                <div class="data">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="full_info_item contact">
+                <div class="title">CONTACT</div>
+
+                <div class="info_wrap">
+                    <ul>
+                        <li>
+                            <span class="info_q">Email</span>
+                            <span class="info_a">scarlett.rosey@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="info_q">Website</span>
+                            <span class="info_a">scarlett.rosey@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="info_q">Phone</span>
+                            <span class="info_a">scarlett.rosey@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="info_q">Linkedin</span>
+                            <span class="info_a">linkedin.com/rosey1</span>
+                        </li>
+                        <li>
+                            <span class="info_q">Facebook</span>
+                            <span class="info_a">facebook.com/scarlett</span>
+                        </li>
+                        <li>
+                            <span class="info_q">Twitter</span>
+                            <span class="info_a">twitter.com/Srosey</span>
+                        </li>
+                        <li>
+                            <span class="info_q">Instagram</span>
+                            <span class="info_a">instagram.com/rosey124</span>
+                        </li>
+                        <li>
+                            <span class="info_q">Reddit</span>
+                            <span class="info_a">reddit.com/Srosey</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
-<footer class="footer">
+<footer class="footer container">
     <div class="footer__contact">
         <div class="social_info">
             <div class="fb_link">
@@ -26,8 +214,9 @@
                 <a href="#"></a>
             </div>
             <div class="li_link">
-                <img src="" alt="" class="li">
-                <a href="#"></a>
+                <i class="fab fa-facebook-f">
+                    <a href="#"></a>
+                </i>
             </div>
             <div class="git_link">
                 <img src="" alt="" class="git">
@@ -36,5 +225,6 @@
         </div>
     </div>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>

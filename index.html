@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My CV</title>
 </head>
 <body>
@@ -64,16 +65,13 @@
         </ul>
     </div>
 
-    <div class="full_info_wrap">
-        <div class="tabs">
-            <ul>
-                <li data-li="experience" class="active">Experience</li>
-                <li data-li="education">Education</li>
-                <li data-li="contact">Contact</li>
-            </ul>
-        </div>
-
-        <div class="full_info">
+    <div class="tabs">
+        <div class="tab active" data-target="Experience">Experience</div>
+        <div class="tab" data-target="Education">Education</div>
+        <div class="tab" data-target="Something">Something</div>
+    </div>
+    <div id="panels">
+        <div class="Experience panel active">
             <div class="full_info_item experience">
                 <div class="title">WORK EXPERIENCE</div>
 
@@ -81,52 +79,51 @@
                     <ul>
                         <li>
                             <div class="sub_title">
-                                2013 - 2015
+                                2021 - nowadays
                             </div>
 
                             <div class="info_item">
                                 <div class="info_title">
-                                    Facebook
+                                    Webmil Web-Production
                                 </div>
                                 <div class="data">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquam nesciunt
-                                    tempora fugit, doloremque pariatur.
+                                    Frontend Developer
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="sub_title">
-                                2015 - 2017
+                                2017 - 2021
                             </div>
 
                             <div class="info_item">
                                 <div class="info_title">
-                                    Amazon Pvt Limited
+                                    Lego school
                                 </div>
                                 <div class="data">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquam nesciunt
-                                    tempora fugit, doloremque pariatur.
+                                    Robotics based on Lego education sets
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="sub_title">
-                                2017 - Present
+                                2013 - 1018
                             </div>
 
                             <div class="info_item">
                                 <div class="info_title">
-                                    Google
+                                    Ivano-Frankivsk Vodoekotekhprom
                                 </div>
                                 <div class="data">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquam nesciunt
-                                    tempora fugit, doloremque pariatur.
+                                    The head of the station
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="Education panel">
             <div class="full_info_item education">
                 <div class="title">EDUCATION</div>
 
@@ -134,77 +131,61 @@
                     <ul>
                         <li>
                             <div class="sub_title">
-                                2010 - 2013
+                                2006- 2009
                             </div>
 
                             <div class="info_item">
                                 <div class="info_title">
-                                    Web Designing (Texas University)
+                                    University of Oil and Gas
                                 </div>
                                 <div class="data">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Computer systems Programming
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="sub_title">
-                                2000 - 2010
+                                2002- 2006
                             </div>
 
                             <div class="info_item">
                                 <div class="info_title">
-                                    Texas International School
+                                    College of Electronic Devices
                                 </div>
                                 <div class="data">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Computer systems Programming, repair of computer equipment, software support
                                 </div>
                             </div>
                         </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="full_info_item contact">
-                <div class="title">CONTACT</div>
+                        <li>
+                            <div class="sub_title">
+                                1995 - 2002
+                            </div>
 
-                <div class="info_wrap">
-                    <ul>
-                        <li>
-                            <span class="info_q">Email</span>
-                            <span class="info_a">scarlett.rosey@gmail.com</span>
-                        </li>
-                        <li>
-                            <span class="info_q">Website</span>
-                            <span class="info_a">scarlett.rosey@gmail.com</span>
-                        </li>
-                        <li>
-                            <span class="info_q">Phone</span>
-                            <span class="info_a">scarlett.rosey@gmail.com</span>
-                        </li>
-                        <li>
-                            <span class="info_q">Linkedin</span>
-                            <span class="info_a">linkedin.com/rosey1</span>
-                        </li>
-                        <li>
-                            <span class="info_q">Facebook</span>
-                            <span class="info_a">facebook.com/scarlett</span>
-                        </li>
-                        <li>
-                            <span class="info_q">Twitter</span>
-                            <span class="info_a">twitter.com/Srosey</span>
-                        </li>
-                        <li>
-                            <span class="info_q">Instagram</span>
-                            <span class="info_a">instagram.com/rosey124</span>
-                        </li>
-                        <li>
-                            <span class="info_q">Reddit</span>
-                            <span class="info_a">reddit.com/Srosey</span>
+                            <div class="info_item">
+                                <div class="info_title">
+                                    Ivano-Frankivsk 19 School
+                                </div>
+                                <div class="data">
+
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+        <div class="Something panel">
+            <div class="full_info_item contact">
+                <div class="title">Something</div>
+
+                <div class="info_wrap">
+
+                </div>
+            </div>
+        </div>
     </div>
+
 </main>
 <footer class="footer container">
     <div class="footer__contact">
